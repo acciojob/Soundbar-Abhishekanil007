@@ -1,1 +1,4 @@
-//your JS code here. If required.
+function play(audioId){
+	var audio = document.getElementById(audioId);
+	audio.play();
+}
